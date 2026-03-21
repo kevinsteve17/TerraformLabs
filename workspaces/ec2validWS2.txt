@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "Name": "us-east-1-server",
+            "Status": "running",
+            "SubnetId": "subnet-0a718997b4b952ece",
+            "VpcId": "vpc-036d251eb978716f3"
+        }
+    ]
+]
+[
+    [
+        {
+            "Name": "vm-edius-us-east-1-server",
+            "Status": "running",
+            "SubnetId": "subnet-0031a57095356b3b3",
+            "VpcId": "vpc-0b51e08e55e802583"
+        }
+    ],
+    [
+        {
+            "Name": "vm-kevin-us-east-1-server",
+            "Status": "running",
+            "SubnetId": "subnet-0e6a9cd6a72c11564",
+            "VpcId": "vpc-044ed738f4e8829dd"
+        }
+    ]
+]

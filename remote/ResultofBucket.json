@@ -1,0 +1,20 @@
+{
+    "Contents": [
+        {
+            "Key": "terraform.tfstate",
+            "LastModified": "2026-03-21T00:33:48+00:00",
+            "ETag": "\"0914bddf27c051d74e4fa3ef3c610889\"",
+            "ChecksumAlgorithm": [
+                "SHA256"
+            ],
+            "ChecksumType": "FULL_OBJECT",
+            "Size": 7327,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "e70203e1a6c7c4f3daba018f5737d557c6a1a337e53e427aed76129194f93d72"
+            }
+        }
+    ],
+    "RequestCharged": null,
+    "Prefix": ""
+}

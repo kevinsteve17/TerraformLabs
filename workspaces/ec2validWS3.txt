@@ -1,0 +1,10 @@
+[
+    [
+        {
+            "Name": "vm-kevin-us-east-2-server",
+            "Status": "running",
+            "SubnetId": "subnet-0ec357eb317792112",
+            "VpcId": "vpc-07e08ca5c432c3e26"
+        }
+    ]
+]
