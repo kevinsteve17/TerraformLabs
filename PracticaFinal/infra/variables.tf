@@ -13,3 +13,7 @@ variable "subnet_id" {
 variable "tags" {
   type = map(string)
 }
+
+variable "sg_id" {
+  type = string
+}

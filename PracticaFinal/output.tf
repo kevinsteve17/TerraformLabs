@@ -25,3 +25,7 @@ output "subnet_id" {
 output "owner" {
   value = var.tags["owner"]
 }
+
+output "sg_id" {
+  value = module.security.sg_id
+}

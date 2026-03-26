@@ -1,4 +1,4 @@
-resource "aws_vpc" "this" {
+resource "aws_vpc" "myvpcaws" {
   cidr_block = var.vpc_cidr
 
   tags = {
@@ -7,8 +7,8 @@ resource "aws_vpc" "this" {
   }
 }
 
-resource "aws_subnet" "this" {
-  vpc_id     = aws_vpc.this.id
+resource "aws_subnet" "mysubnt" {
+  vpc_id     = aws_vpc.myvpcaws.id
   cidr_block = var.subnet_cidr
 
   tags = {

@@ -1,15 +1,15 @@
 output "public_ip" {
-  value = aws_instance.this.public_ip
+  value = aws_instance.infraws.public_ip
 }
 
 output "instance_id" {
-  value = aws_instance.this.id
+  value = aws_instance.infraws.id
 }
 
 output "name" {
-  value = aws_instance.this.tags["Name"]
+  value = aws_instance.infraws.tags["Name"]
 }
 
 output "az" {
-  value = aws_instance.this.availability_zone
+  value = aws_instance.infraws.availability_zone
 }
