@@ -23,3 +23,13 @@ module "security" {
   vpc_id = module.network.vpc_id
   tags   = var.tags
 }
+
+module "gcp" {
+  source = "./gcp"
+
+  gpc_id = module.gcp.gpc_id
+  gcpsubnet_id = module.gcp.gpcsubnet_id
+  tags   = var.tags
+
+
+}

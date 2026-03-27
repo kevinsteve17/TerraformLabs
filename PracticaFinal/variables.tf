@@ -39,6 +39,6 @@ variable "subnet_cidr" {
 variable "tags" {
   type = map(any)
   default = {
-    "owner" = "Kevin Viquez Gomez"
+    "owner" = "kevinviquezgomez"
   }
 }
